@@ -1,6 +1,9 @@
-# Mapeando el Universo
+#Mapeando el Universo
 
 Repositorio para la mentoria - DiploDatos 2020
+
+![Sloan Digital Sky Server](./images/sloan.svg)
+<img src="./images/sloan.svg">
 
 ## Objetivo general
 
