@@ -1,7 +1,7 @@
 # Mapeando el Universo
 **Mentor**: Mario Agustín Sgró
 
-![Sloan Digital Sky Server](./images/sloan.svg)
+![Sloan Digital Sky Server ><](./images/sloan.svg)
 
 ## Descripción
 
@@ -40,9 +40,24 @@ La base de datos es una porción del relevamiento SDSS. Una muestra se encuentra
 Aquí iremos describiendo los diferentes trabajos prácticos.. por el momento solo las fechas
 
 * 22/6 Análisis y visualización
+
+  En esta primera etapa se trabajará con la visualización de los datos (distribución espacial, distribución de magnitudes, etc), determinación de las variables que serán de interés para el estudio futuro, y la correlación entre ellas. 
+
 * 19/7 Análisis exploratorio y curación
+
+  Aquí se trabajará con la "construcción" de nuevas variables a partir de las presentes en el dataset (tales como colores de las galaxias), se determinarán los datos faltantes y se limpiará el base de datos de outliers. 
+
 * 16/8 Introducción al aprendizaje automático
+
+  En esta etapa se planteará alguno de los métodos de regresión lineal y polinomial para predecir la distancias a las galaxias a partir de las variables fotométricas.
+
 * 13/9 Aprendizaje supervisado
+
+  Emplear árboles de decisión, multi-layer perceptron y redes neuronales con la misma finalidad.
+
 * 27/9 Aprendizaje no supervisado
+
+  Haciendo uso de los espectros se realizará una descomposición de componentes principales y se propondrá la utilización de algoritmos de clustering para analizar la población de galaxias. 
+
 * 6/11/2020 – 7/11/2020 presentación de mentorías
 
