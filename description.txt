@@ -1,0 +1,126 @@
+specObjID           int     16             Unique database ID based on PLATE, MJD, FIBERID, RUN2D
+z                   real    4              Final Redshift
+zErr                real    4              Redshift error
+zWarning            int     4              Bitmask of warning values; 0 means all is well
+subClass            varchar 32             Spectroscopic subclass
+velDisp             real    4     km/s     Velocity dispersion
+velDispErr          real    4     km/s     Error in velocity dispersion
+ra                  float   8     deg      J2000 Right Ascension (r-band)
+dec                 float   8     deg      J2000 Declination (r-band)
+raErr               float   8     arcsec   Error in RA (* cos(Dec), that is, proper units)
+decErr              float   8     arcsec   Error in Dec
+petroMag_u          real    4     mag      Petrosian magnitude
+petroMag_g          real    4     mag      Petrosian magnitude
+petroMag_r          real    4     mag      Petrosian magnitude
+petroMag_i          real    4     mag      Petrosian magnitude
+petroMag_z          real    4     mag      Petrosian magnitude
+petroMagErr_u       real    4     mag      Petrosian magnitude error
+petroMagErr_g       real    4     mag      Petrosian magnitude error
+petroMagErr_r       real    4     mag      Petrosian magnitude error
+petroMagErr_i       real    4     mag      Petrosian magnitude error
+petroMagErr_z       real    4     mag      Petrosian magnitude error
+petroRad_u          real    4     arcsec   Petrosian radius
+petroRad_g          real    4     arcsec   Petrosian radius
+petroRad_r          real    4     arcsec   Petrosian radius
+petroRad_i          real    4     arcsec   Petrosian radius
+petroRad_z          real    4     arcsec   Petrosian radius
+petroRadErr_u       real    4     arcsec   Petrosian radius error
+petroRadErr_g       real    4     arcsec   Petrosian radius error
+petroRadErr_r       real    4     arcsec   Petrosian radius error
+petroRadErr_i       real    4     arcsec   Petrosian radius error
+petroRadErr_z       real    4     arcsec   Petrosian radius error
+petroR50_u          real    4     arcsec   Radius containing 50% of Petrosian flux
+petroR50_g          real    4     arcsec   Radius containing 50% of Petrosian flux
+petroR50_r          real    4     arcsec   Radius containing 50% of Petrosian flux
+petroR50_i          real    4     arcsec   Radius containing 50% of Petrosian flux
+petroR50_z          real    4     arcsec   Radius containing 50% of Petrosian flux
+petroR50Err_u       real    4     arcsec   Error in radius with 50% of Petrosian flux error
+petroR50Err_g       real    4     arcsec   Error in radius with 50% of Petrosian flux error
+petroR50Err_r       real    4     arcsec   Error in radius with 50% of Petrosian flux error
+petroR50Err_i       real    4     arcsec   Error in radius with 50% of Petrosian flux error
+petroR50Err_z       real    4     arcsec   Error in radius with 50% of Petrosian flux error
+petroR90_u          real    4     arcsec   Radius containing 90% of Petrosian flux
+petroR90_g          real    4     arcsec   Radius containing 90% of Petrosian flux
+petroR90_r          real    4     arcsec   Radius containing 90% of Petrosian flux
+petroR90_i          real    4     arcsec   Radius containing 90% of Petrosian flux
+petroR90_z          real    4     arcsec   Radius containing 90% of Petrosian flux
+petroR90Err_u       real    4     arcsec   Error in radius with 90% of Petrosian flux error
+petroR90Err_g       real    4     arcsec   Error in radius with 90% of Petrosian flux error
+petroR90Err_r       real    4     arcsec   Error in radius with 90% of Petrosian flux error
+petroR90Err_i       real    4     arcsec   Error in radius with 90% of Petrosian flux error
+petroR90Err_z       real    4     arcsec   Error in radius with 90% of Petrosian flux error
+deVRad_u            real    4     arcsec   de Vaucouleurs fit scale radius, here defined to be the same as the half-light radius, also called the effective radius.
+deVRad_g            real    4     arcsec   de Vaucouleurs fit scale radius, here defined to be the same as the half-light radius, also called the effective radius.
+deVRad_r            real    4     arcsec   de Vaucouleurs fit scale radius, here defined to be the same as the half-light radius, also called the effective radius.
+deVRad_i            real    4     arcsec   de Vaucouleurs fit scale radius, here defined to be the same as the half-light radius, also called the effective radius.
+deVRad_z            real    4     arcsec   de Vaucouleurs fit scale radius, here defined to be the same as the half-light radius, also called the effective radius.
+deVRadErr_u         real    4     arcsec   Error in de Vaucouleurs fit scale radius error
+deVRadErr_g         real    4     arcsec   Error in de Vaucouleurs fit scale radius error
+deVRadErr_r         real    4     arcsec   Error in de Vaucouleurs fit scale radius error
+deVRadErr_i         real    4     arcsec   Error in de Vaucouleurs fit scale radius error
+deVRadErr_z         real    4     arcsec   Error in de Vaucouleurs fit scale radius error
+deVAB_u             real    4              de Vaucouleurs fit b/a
+deVAB_g             real    4              de Vaucouleurs fit b/a
+deVAB_r             real    4              de Vaucouleurs fit b/a
+deVAB_i             real    4              de Vaucouleurs fit b/a
+deVAB_z             real    4              de Vaucouleurs fit b/a
+deVABErr_u          real    4              de Vaucouleurs fit b/a error
+deVABErr_g          real    4              de Vaucouleurs fit b/a error
+deVABErr_r          real    4              de Vaucouleurs fit b/a error
+deVABErr_i          real    4              de Vaucouleurs fit b/a error
+deVABErr_z          real    4              de Vaucouleurs fit b/a error
+deVPhi_u            real    4     deg      de Vaucouleurs fit position angle (+N thru E)
+deVPhi_g            real    4     deg      de Vaucouleurs fit position angle (+N thru E)
+deVPhi_r            real    4     deg      de Vaucouleurs fit position angle (+N thru E)
+deVPhi_i            real    4     deg      de Vaucouleurs fit position angle (+N thru E)
+deVPhi_z            real    4     deg      de Vaucouleurs fit position angle (+N thru E)
+deVMag_u            real    4     mag      de Vaucouleurs magnitude fit
+deVMag_g            real    4     mag      de Vaucouleurs magnitude fit
+deVMag_r            real    4     mag      de Vaucouleurs magnitude fit
+deVMag_i            real    4     mag      de Vaucouleurs magnitude fit
+deVMag_z            real    4     mag      de Vaucouleurs magnitude fit
+deVMagErr_u         real    4     mag      de Vaucouleurs magnitude fit error
+deVMagErr_g         real    4     mag      de Vaucouleurs magnitude fit error
+deVMagErr_r         real    4     mag      de Vaucouleurs magnitude fit error
+deVMagErr_i         real    4     mag      de Vaucouleurs magnitude fit error
+deVMagErr_z         real    4     mag      de Vaucouleurs magnitude fit error
+expRad_u            real    4     arcsec   Exponential fit scale radius, here defined to be the same as the half-light radius, also called the effective radius.
+expRad_g            real    4     arcsec   Exponential fit scale radius, here defined to be the same as the half-light radius, also called the effective radius.
+expRad_r            real    4     arcsec   Exponential fit scale radius, here defined to be the same as the half-light radius, also called the effective radius.
+expRad_i            real    4     arcsec   Exponential fit scale radius, here defined to be the same as the half-light radius, also called the effective radius.
+expRad_z            real    4     arcsec   Exponential fit scale radius, here defined to be the same as the half-light radius, also called the effective radius.
+expRadErr_u         real    4     arcsec   Exponential fit scale radius error
+expRadErr_g         real    4     arcsec   Exponential fit scale radius error
+expRadErr_r         real    4     arcsec   Exponential fit scale radius error
+expRadErr_i         real    4     arcsec   Exponential fit scale radius error
+expRadErr_z         real    4     arcsec   Exponential fit scale radius error
+expAB_u             real    4              Exponential fit b/a
+expAB_g             real    4              Exponential fit b/a
+expAB_r             real    4              Exponential fit b/a
+expAB_i             real    4              Exponential fit b/a
+expAB_z             real    4              Exponential fit b/a
+expABErr_u          real    4              Exponential fit b/a
+expABErr_g          real    4              Exponential fit b/a
+expABErr_r          real    4              Exponential fit b/a
+expABErr_i          real    4              Exponential fit b/a
+expABErr_z          real    4              Exponential fit b/a
+expPhi_u            real    4     deg      Exponential fit position angle (+N thru E)
+expPhi_g            real    4     deg      Exponential fit position angle (+N thru E)
+expPhi_r            real    4     deg      Exponential fit position angle (+N thru E)
+expPhi_i            real    4     deg      Exponential fit position angle (+N thru E)
+expPhi_z            real    4     deg      Exponential fit position angle (+N thru E)
+expMag_u            real    4     mag      Exponential fit magnitude
+expMag_g            real    4     mag      Exponential fit magnitude
+expMag_r            real    4     mag      Exponential fit magnitude
+expMag_i            real    4     mag      Exponential fit magnitude
+expMag_z            real    4     mag      Exponential fit magnitude
+expMagErr_u         real    4     mag      Exponential fit magnitude error
+expMagErr_g         real    4     mag      Exponential fit magnitude error
+expMagErr_r         real    4     mag      Exponential fit magnitude error
+expMagErr_i         real    4     mag      Exponential fit magnitude error
+expMagErr_z         real    4     mag      Exponential fit magnitude error
+extinction_u        real    4     mag      Extinction in u-band
+extinction_g        real    4     mag      Extinction in g-band
+extinction_r        real    4     mag      Extinction in r-band
+extinction_i        real    4     mag      Extinction in i-band
+extinction_z        real    4     mag      Extinction in z-band
