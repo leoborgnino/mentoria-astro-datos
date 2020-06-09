@@ -8,7 +8,16 @@ velDispErr          real    4     km/s     Error in velocity dispersion
 ra                  float   8     deg      J2000 Right Ascension (r-band)
 dec                 float   8     deg      J2000 Declination (r-band)
 raErr               float   8     arcsec   Error in RA (* cos(Dec), that is, proper units)
-decErr              float   8     arcsec   Error in Dec
+decErr              float   8     arcsec   Error in DecmodelMag_u  real  4     mag  better of DeV/Exp magnitude fit
+modelMag_g          real    4     mag      better of DeV/Exp magnitude fit
+modelMag_r          real    4     mag      better of DeV/Exp magnitude fit
+modelMag_i          real    4     mag      better of DeV/Exp magnitude fit
+modelMag_z          real    4     mag      better of DeV/Exp magnitude fit
+modelMagErr_u       real    4     mag      Error in better of DeV/Exp magnitude fit
+modelMagErr_g       real    4     mag      Error in better of DeV/Exp magnitude fit
+modelMagErr_r       real    4     mag      Error in better of DeV/Exp magnitude fit
+modelMagErr_i       real    4     mag      Error in better of DeV/Exp magnitude fit
+modelMagErr_z       real    4     mag      Error in better of DeV/Exp magnitude fit
 petroMag_u          real    4     mag      Petrosian magnitude
 petroMag_g          real    4     mag      Petrosian magnitude
 petroMag_r          real    4     mag      Petrosian magnitude
