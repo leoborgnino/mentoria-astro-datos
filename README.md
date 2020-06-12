@@ -35,6 +35,9 @@ En el caso de realizar la materia de **Deep Learning**
 
 La base de datos es una porción del relevamiento SDSS. Una muestra se encuentra en la carpeta **dataseet**. El dataset completo se podrá bajar de una dirección específica luego. También se podrá tener acceso a la base de datos del relevamiento, donde se podrán realizar consultas SQL para extraer más datos en caso de ser necesario.
 
+[Dataset 1](http://iate.oac.uncor.edu/~marioagustin/files/DiploDatos.csv)
+[Dataset 2](http://iate.oac.uncor.edu/~marioagustin/files/DiploDatos_Zoo.csv)
+
 ## Hitos de la mentoría
 
 Aquí iremos describiendo los diferentes trabajos prácticos.. por el momento solo las fechas
