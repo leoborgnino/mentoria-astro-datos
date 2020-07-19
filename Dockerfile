@@ -4,9 +4,9 @@ ADD environment.yml /tmp/environment.yml
 
 RUN git clone https://github.com/leoborgnino/mentoria-astro-datos /tmp/mentoria-astro-datos
 
-RUN wget --directory-prefix=/tmp/mentoria-astro-datos/dataset/ "http://iate.oac.uncor.edu/~marioagustin/files/DiploDatos.csv" -O DiploDatos.csv
+ADD dataset/DiploDatos.csv /tmp/mentoria-astro-datos/dataset/DiploDatos.csv
 
-RUN wget --directory-prefix=/tmp/mentoria-astro-datos/dataset/ "http://iate.oac.uncor.edu/~marioagustin/files/DiploDatos_Zoo.csv" -O DiploDatos_Zoo.csv
+ADD dataset/DiploDatos_Zoo.csv /tmp/mentoria-astro-datos/dataset/DiploDatos_Zoo.csv
 
 RUN conda env create -f /tmp/environment.yml
 
