@@ -38,6 +38,30 @@ La base de datos es una porción del relevamiento SDSS. Una muestra se encuentra
 [Dataset 1](http://iate.oac.uncor.edu/~marioagustin/files/DiploDatos.csv)
 [Dataset 2](http://iate.oac.uncor.edu/~marioagustin/files/DiploDatos_Zoo.csv)
 
+## Imagen Docker
+
+Se provee una imagen Docker para utilizar los scripts desarrollados en el trabajo.
+Los pasos de la instalación de Docker en ubuntu 18.04:
+
+1. sudo apt update
+2. sudo apt install -y apt-transport-https software-properties-common ca-certificates curl wget
+3. wget https://download.docker.com/linux/ubuntu/gpg
+4. sudo apt-key add gpg
+5. echo "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list
+6. sudo apt update
+7. sudo apt install -y docker-ce
+
+NOTA: Si sigue sin encontrar el paquete docker-ce, revisar que el archivo /etc/apt/sources.list.d/docker.list contenga la dirección que retorna el comando: echo "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable".
+
+Los pasos de la descarga de la imagen y su posterior ejecución son los siguientes:
+
+- sudo docker pull lborgnino/astrodatos
+- sudo docker run -p 8888:8888 -it lborgnino/astrodatos
+
+La imagen docker tiene todas las librerías y base de datos necesarias para ejecutar los notebooks y además abre por defecto jupyter notebook en la dirección localhost:8888.
+El archivo Dockerfile esta en la raiz del repo por si se quisiera usar como base la imagen y también un archivo environment.yml de conda por si se quisiera evitar docker y utilizar directamente un entorno de conda.
+
+
 ## Hitos de la mentoría
 
 Aquí iremos describiendo los diferentes trabajos prácticos.. por el momento solo las fechas
