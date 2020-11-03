@@ -1,6 +1,9 @@
 # Mapeando el Universo
 **Mentor**: Mario Agustín Sgró
 
+
+**Video presentación de mentoría**: https://drive.google.com/file/d/1tOhujb6Q5xl2IaLIq3iRNL_l-5F2baJU/view?usp=sharing
+
 ![Sloan Digital Sky Server ><](./images/sloan.svg)
 
 ## Descripción
